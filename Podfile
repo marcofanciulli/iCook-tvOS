@@ -9,14 +9,14 @@ workspace "iCookTV"
 project "iCookTV"
 
 target :iCookTV do
-  pod "Alamofire"
+  pod "Alamofire", git: "https://github.com/Alamofire/Alamofire.git", commit: "3e0cf8d"
   pod "Crashlytics"
   pod "Fabric"
   pod "Freddy"
   pod "HCYoutubeParser"
-  pod "Hue", git: "https://github.com/hyperoslo/Hue.git", commit: "89ae5e1"
+  pod "Hue", git: "https://github.com/bcylin/Hue.git", commit: "190aa15"
   pod "R.swift"
-  pod "Kingfisher"
+  pod "Kingfisher", git: "https://github.com/bcylin/Kingfisher.git", commit: "9ce4853"
   pod "TreasureData-tvOS-SDK", "0.1.14"
 
   target :iCookTVTests do
